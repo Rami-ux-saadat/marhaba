@@ -93,3 +93,18 @@ body { font-family: 'Inter', sans-serif; line-height: 1.6; color: var(--dark-tex
   .style-details h3 { font-size: 1.3em; }
   .style-details p, .style-details ul { font-size: 0.85em; }
 }
+/* Force the page to occupy full width and height */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow-x: hidden;
+}
+
+/* Remove WordPress theme default padding */
+#page, .site, .entry-content, .content-area {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
